@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo-circle.png">
+    <title>ZvByte - Coming Soon</title>
+</head>
+<body>
+    <div class="UF9VKM245FXPRWO0KXEY7IW8AF8TVKDKFZ0MXO9TD7TZD3JULER2B5U3728G">
+        <div class="IBMC8RD4EI9CZ5A7TOONFXB9II2TC6UJKEICZ8JN9EON89S87Z86O2SA1PFD">
+            <p>ZvByte</p>
+        </div>
+        <div class="G8QXNHO647Y57YM8GY553BSXJLZSWQFHZXU65YXSJHJFJCPWM7TCGGLKVYG0">
+            <h1>COMING SOON</h1>
+            <hr>
+            <p id="MJW46G547ES35IPJW00HQ6WG87E5LXOJX1AS4I3GBOYYRS90T4QNAI5XS4HI" style="font-size: 30px;"></p>
+        </div>
+        <div class="DGGL39LBXKS88WA8QZDJCDOPW958MT7GUEFDEODL800P74VUVNQMI6VG897V">
+            <p>&copy; ZvByte, All Rights Reserved.</p>
+        </div>
+    </div>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+
+        .UF9VKM245FXPRWO0KXEY7IW8AF8TVKDKFZ0MXO9TD7TZD3JULER2B5U3728G {
+            background-image: url('http://192.168.43.97:8080/background.png');
+            height: 100%;
+            background-position: center;
+            background-size: cover;
+            position: relative;
+            color: white;
+            font-family: "Bebas Neue";
+            font-size: 25px;
+        }
+
+        .IBMC8RD4EI9CZ5A7TOONFXB9II2TC6UJKEICZ8JN9EON89S87Z86O2SA1PFD {
+            position: absolute;
+            top: 0;
+            left: 16px;
+        }
+
+        .DGGL39LBXKS88WA8QZDJCDOPW958MT7GUEFDEODL800P74VUVNQMI6VG897V {
+            position: absolute;
+            bottom: 0;
+            left: 16px;
+        }
+
+        .G8QXNHO647Y57YM8GY553BSXJLZSWQFHZXU65YXSJHJFJCPWM7TCGGLKVYG0 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        hr {
+            margin: auto;
+            width: 40%;
+        }
+    </style>
+    <script>
+        var countDownDate = new Date("Jan 7, 2022 15:37:25").getTime();
+        var countdownfunction = setInterval(function() {
+            var now = new Date().getTime();
+            var distance = countDownDate - now;
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            document.getElementById("MJW46G547ES35IPJW00HQ6WG87E5LXOJX1AS4I3GBOYYRS90T4QNAI5XS4HI").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+            if (distance < 0) {
+                clearInterval(countdownfunction);
+                document.getElementById("MJW46G547ES35IPJW00HQ6WG87E5LXOJX1AS4I3GBOYYRS90T4QNAI5XS4HI").innerHTML = "Almost there...";
+            }
+        }, 1000);
+    </script>
+</body>
+</html>
