@@ -1,0 +1,7 @@
+| (HTML) Colors |
+-
+1. #2FBDFF
+2. #0F2F40
+3. #FFFFFF
+-
+| ZvByte (Zero Version Byte) |
