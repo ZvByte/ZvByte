@@ -1,0 +1,3 @@
+Font name - Bebas Neue
+Version - 2.000
+OpenType Layout, TrueType Outlines.
