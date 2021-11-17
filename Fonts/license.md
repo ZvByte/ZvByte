@@ -6,5 +6,5 @@ These all **fonts** are licensed under [**SIL Open Font License**](https://scrip
 
 # Download
 We download these fonts from [**Google Fonts**](https://fonts.google.com), best website to download **fonts**.
-
-###### &copy; Zero Version Byte, All Rights Reserved.
+######
+###### &copy; [Zero Version Byte](https://zvbyte.github.io/ZvByte), All Rights Reserved.
